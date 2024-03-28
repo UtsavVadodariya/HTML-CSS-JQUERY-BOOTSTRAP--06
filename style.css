@@ -1,0 +1,486 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}  
+  
+
+
+
+.image {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+    background-image:linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5)), url(image/hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+
+.image h1 {
+    font-size: 100px;
+   padding-top: 50px;
+}
+
+
+.about {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.abut {
+    width: 70%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.abt {
+    width: 23%;
+    height: 300px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.abt i {
+    font-size: 50px;
+    color: #6F42C1;
+}
+.abt h1 {
+    font-size: 25px;
+}
+
+.work {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.projects {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+}
+.pro {
+    width: 70%;
+    height: 800px;
+    /* border: 1px solid black */
+}
+
+.prj {
+    width: 48%;
+    height: 380px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.prj img {
+    width: 100%;
+    height: 100%;
+}
+.prj h1 {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    display: none;
+}
+
+.prj:hover img {
+    
+    filter: brightness(50%);
+
+}
+.prj:hover h1 {
+    display: block;
+    color: white;
+}
+
+.criative {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.criv {
+    width: 70%;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.we-grow {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+}
+.we {
+    width: 70%;
+    height: 700px;
+    /* border: 1px solid black; */
+}
+.grw1 {
+    width: 42%;
+    height: 700px;
+    /* border: 1px solid black; */
+}
+.grw1 img {
+    width: 100%;
+    height: 100%;
+}
+.grw2 {
+    width: 50%;
+    height: 700px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.grw2 img {
+    width: 100%;
+    height: 45%;
+    
+}
+
+.grw2 h5 {
+    color: #6F42C1;
+}
+.grw2 p {
+    font-size: 20px;
+}
+.grw2 button {
+    font-size: 15px;
+    padding: 10px;
+}
+.grw2 button:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.get {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: #6F42C1;
+    color: white;
+}
+
+.get button {
+  background-color: #6F42C1;
+  color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  padding: 10px;
+}
+.get button:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+  
+}
+.foot {
+    width: 60%;
+    height: 400px;
+    /* border: 1px solid black; */
+}
+
+.ft1 {
+    width: 40%;
+    height: 200px;
+    /* border: 1px solid black; */
+
+    padding: 8px;
+}
+
+.ft1 h5 {
+    font-size: 25px;
+}
+
+.ft1 p {
+    font-size: 16px;
+}
+
+.ft2 {
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid black;  */
+    padding: 8px;
+}
+.ft2 h5 {
+    font-size: 25px;
+}
+.ft2 a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.ft3 {
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid black; */
+    padding: 8px;
+}
+
+
+
+
+.ft3 i {
+    padding-left: 15px;
+}
+
+.fooer {
+    width: 100%;
+    height: 100px;
+}
+.fooer i {
+    color: red;
+}
+.fooer a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:992px)
+
+{
+    .image h1 {
+        font-size: 80px;
+        margin-top: 150px;
+    }
+    .about {
+        height: auto;
+    }
+    .abut {
+        height: auto;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .projects {
+        height: auto;
+    }
+    .pro {
+        height: auto ;
+        
+        width: 100%;
+    }
+    .prj {
+    
+        margin-top: 20px;
+    }
+    
+    .criv {
+        width: 90%;
+    }
+
+    .we-grow {
+        height: auto;
+    }
+    .we {
+        height: auto;
+       
+        width: 100%;
+    }
+
+    .grw2 p{
+        font-size: 15px;
+    }
+
+    footer {
+        height: auto;
+    }
+    .foot {
+        height: auto;
+        /* flex-direction: column; */
+        width: 100%;
+       
+    }
+    .ft1 {
+        width: 80%;
+        
+    }
+    .ft2 {
+        width: 80%;
+      
+    } .ft3 {
+        width: 80%;
+       
+    }
+}
+
+
+
+@media(max-width:768px)
+
+{
+    .image h1 {
+        font-size: 60px;
+        margin-top: 150px;
+    }
+    .about {
+        height: auto;
+    }
+    .abut {
+        height: auto;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .abt {
+        width: 48%;
+    }
+    .projects {
+        height: auto;
+    }
+    .pro {
+        height: auto ;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .prj {
+        width: 48%;
+        margin-top: 20px;
+    }
+    
+    .criv {
+        width: 90%;
+    }
+
+    .we-grow {
+        height: auto;
+    }
+    .we {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+    .grw1 {
+        width: 80%;
+    }
+    .grw2 {
+        width: 80%;
+    }
+    .grw2 p{
+        font-size: 15px;
+    }
+
+    footer {
+        height: auto;
+    }
+    .foot {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .ft1 {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .ft2 {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    } .ft3 {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+@media(max-width:576px)
+
+{
+    .image h1 {
+        font-size: 50px;
+        margin-top: 150px;
+    }
+
+    .about {
+        height: auto;
+    }
+    .abut {
+        height: auto;
+        flex-direction: column;
+        width: 80%;
+    }
+    .abt {
+        width: 100%;
+    }
+
+    .projects {
+        height: auto;
+    }
+    .pro {
+        height: auto ;
+        flex-direction: column;
+        width: 100%;
+    }
+    .prj {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .criv {
+        width: 90%;
+    }
+
+    .we-grow {
+        height: auto;
+    }
+    .we {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+    .grw1 {
+        width: 80%;
+    }
+    .grw2 {
+        width: 80%;
+    }
+    .grw2 p{
+        font-size: 15px;
+    }
+
+    footer {
+        height: auto;
+    }
+    .foot {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .ft1 {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .ft2 {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    } .ft3 {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+}
